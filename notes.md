@@ -18,3 +18,5 @@ make changes > commit and push > gets deployed
 
 heroku logs --tail
 npx heroku
+npx heroku logs -a appname --tail (install for this app)
+npm -i heroku
