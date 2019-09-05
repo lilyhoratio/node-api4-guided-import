@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config(); // load prior to loading the server.js where you are using it (in the console.log)
 const server = require("./api/server.js");
 
 // const port = 4000;
