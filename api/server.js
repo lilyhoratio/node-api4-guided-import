@@ -5,7 +5,7 @@ const helmet = require("helmet");
 // console.log("environment:", process.env.NODE_ENV);
 
 // v2 - use centralized source
-const secrets = require("../secrets.js");
+const secrets = require("../config/secrets");
 console.log("environment:", secrets.environment);
 
 const apiRouter = require("./api-router.js");
