@@ -8,6 +8,8 @@ make changes > commit and push > gets deployed
 
 ### Steps
 
+On Heroku:
+
 - create new app on heroku
 - In "Deploy" tab, click on Github and authorize access
 - Search for your repo and connect it
@@ -16,7 +18,15 @@ make changes > commit and push > gets deployed
 - go to the "Overview" tab
 - once it is deployed, click on "Open App" on top right
 
+In terminal:
+
 heroku logs --tail
 npx heroku
 npx heroku logs -a appname --tail (install for this app)
 npm -i heroku
+
+In files:
+
+- added production key to knexfile.js
+
+add/commit/push
